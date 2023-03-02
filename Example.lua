@@ -1,9 +1,9 @@
 -- New example script written by wally
 -- You can suggest changes with a pull request or something
 
-local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Starflexs/Star-Ui/main/Library.lua'))()
-local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/Starflexs/Star-Ui/main/ThemeManager.lua'))()
-local SaveManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/Starflexs/Star-Ui/main/SaveManager.lua'))()
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Starflexs/Star-Ui/main/Library.lua?token=GHSAT0AAAAAAB7PQAYTHGGB2BK2ZEUCCNKSZAASR5Q'))()
+local ThemeManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/Starflexs/Star-Ui/main/SaveManager.lua?token=GHSAT0AAAAAAB7PQAYT55DDFDWR65EDX5ZCZAASSIA'))()
+local SaveManager = loadstring(game:HttpGet('https://raw.githubusercontent.com/Starflexs/Star-Ui/main/ThemeManager.lua?token=GHSAT0AAAAAAB7PQAYTUUW5GQHNY6BK6EOSZAASSRA'))()
 
 local Window = Library:CreateWindow({
     -- Set Center to true if you want the menu to appear in the center

@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Malixian Hub'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"6a3db4","BackgroundColor":"1c1c1c","OutlineColor":"000000"}') },
+		['Malixian Hub'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"46331c","AccentColor":"14ff00","BackgroundColor":"4d3921","OutlineColor":"5a3100"}') },
 		['Xenonhub Hub v1'] 		= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"000f1e","AccentColor":"00b4f0","BackgroundColor":"050514","OutlineColor":"0a1e28"}') },
 		['Xenonhub Hub v2'] 		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"181825","AccentColor":"ff3c3c","BackgroundColor":"16161f","OutlineColor":"323232"}') },
 		['Deity Hub Next Generation'] 	= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0dddff","BackgroundColor":"141414","OutlineColor":"323232"}') },
